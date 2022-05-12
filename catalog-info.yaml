@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: bs-test
+  description: Backstage Test
+  tags:
+    - rust
+    - data
+  links:
+    - url: https://www.mindvalley.com/
+      title: Official website
+      icon: cloud
+spec:
+  type: service
+  lifecycle: experimental
+  owner: team-platform-engineering
+  apiConsumedBy: ['component:www-mv']
